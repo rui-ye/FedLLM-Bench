@@ -1,0 +1,658 @@
+{
+    "Standard_Arabic": [
+        {
+            "instruction": "ما هي أكبر دولة في العالم؟",
+            "reference": "أكبر دولة في العالم هي روسيا."
+        },
+        {
+            "instruction": "هل طريب هي عاصمة السعودية؟",
+            "reference": "لا، عاصمة المملكة العربية السعودية هي الرياض."
+        },
+        {
+            "instruction": "انظر إلى التغريدة التالية: \"أنا لا أحب الصينيين ، فهم أذكياء للغاية ومتكبرون!\" هل البيان ينطوي على كلام يدعو إلى الكراهية؟",
+            "reference": "نعم ، إنها تعبر عن كراهية لدولة معينة وهي الصين."
+        },
+        {
+            "instruction": "كنت أقرأ في مراجعة ووجدت الجملة التالية 'من افضل الفنادق التي تجعلك تشتاق الي العوده اليه والاقامه فيه حيث الرقي والرفاهيه والامتياز في تقديم الخدمه'. هل المراجعة السابقة إيجابية سلبية او محايدة؟",
+            "reference": "المراجعة السابقة تعبر عن مشاعر إيجابية."
+        },
+        {
+            "instruction": "ما هي درجة غليان الماء",
+            "reference": "تُعرف درجة غليان الماء بأنّها درجة الحرارة التي يتساوى عندها ضغط بخار الماء السائل مع الضغط المحيط به، حيثُ تبلغ درجة الغليان للماء عند 1 ضغط جوي 100 درجة مئوية، 373.15 كلفن، وهذه النقطة التي يبدأ عندها الماء بالغليان والتحول من الحالة السائلة إلى الحالة الغازيّة. "
+        },
+        {
+            "instruction": "لدي نص غير مشكل، قم بتشكيله: قوبة و التغليظ بمكان فبمكة بين الركن والمقام لزيادته على غيره في الفضيلة وبالقدس عند الصخرة لفضيلتها وفي سنن ابن ماجه مرفوعا من الجنة وبقية البلاد عند المنبر لحديث مالك والشافعي وأحمد عن جابر مرفوعا من حلف على منبري هذا بيمين آثمة فليتبوأ مقعده من النار وقيس عليه باقي منابر المساجد وبحلف.",
+            "reference": "النص المشكل: قُوبَةِ وَ التَغْلِيظُ بِمَكَانِ فَبِمَكَةَ بَيْنَ الرُكْنِ وَالْمَقَامِ لِزِيَادَتِهِ عَلَى غَيْرِهِ فِي الْفَضِيلَةِ وَبِالْقُدْسِ عِنْدَ الصَخْرَةِ لِفَضِيلَتِهَا وَفِي سُنَنِ ابْنِ مَاجَهْ مَرْفُوعًا مِنْ الْجَنَةِ وَبَقِيَةِ الْبِلَادِ عِنْدَ الْمِنْبَرِ لِحَدِيثِ مَالِكٍ وَالشَافِعِيِ وَأَحْمَدَ عَنْ جَابِرٍ مَرْفُوعًا مَنْ حَلَفَ عَلَى مِنْبَرِي هَذَا بِيَمِينٍ آثِمَةٍ فَلْيَتَبَوَأْ مَقْعَدَهُ مِنْ النَارِ وَقِيسَ عَلَيْهِ بَاقِي مَنَابِرِ الْمَسَاجِدِ وَبِحَلِف."
+        },
+        {
+            "instruction": "وجدت هذا السؤال: متى بدأت سياسة الطفل الواحد في الصين؟ في موقع ثقافي ، ماهي الإجابة؟",
+            "reference": "الإجابة على السؤال هي في عام 1978."
+        },
+        {
+            "instruction": "صنف هذه الجملة ضمن أحد المواضيع التالية: التعليم، السياسة، التكنولوجيا، الرياضة. تم إصدار هاتف آيفون الجديد من شركة أبل اليوم.",
+            "reference": "التكنولوجيا."
+        },
+        {
+            "instruction": "ما هي عاصمة نيجيريا؟",
+            "reference": "عاصمة نيجيريا هي أبوجا."
+        },
+        {
+            "instruction": "في أي قارة تقع جيبوتي؟",
+            "reference": "تقع جيبوتي في قارة إفريقيا."
+        },
+        {
+            "instruction": "لدينا السؤال التالي: في أي ولاية تقع بلدة غوستين ؟. أجب عليه بإستخدام النص التالي: غوستين هي بلدة تقع بولاية ميشيغان في الولايات المتحدة. تبلغ مساحتها 92.8 (كم²)، وترتفع عن سطح البحر 220 م، بلغ عدد سكانها 795 نسمة في عام تعداد الولايات المتحدة 2010 حسب إحصاء مكتب تعداد الولايات المتحدة وتصل الكثافة السكانية فيها 8.6 نسمة/كم2..",
+            "reference": "لقد قمت بقراءة النص. الإجابة هي ميشيغان."
+        },
+        {
+            "instruction": "ھل یمكنك معرفة عدد المرات التي سیظهر فيها الرقم 8 في مجموعة بطاقات تحتوي على جميع الاؤقام من 1 الى 100؟",
+            "reference": "20 مرة. (8 ، 18 ، 28 ، 38 ، 48 ، 58 ، 68 ، 78 ، 80 ، 81 ، 82 ، 83 ، 84 ، 85 ، 86 ، 87 ، 88 ، 89 ، 98)"
+        },
+        {
+            "instruction": "ما هو البحر الخالي من المياه؟",
+            "reference": "البحر الموجود على الخريطة."
+        },
+        {
+            "instruction": "ما هي وحده قياس شده الصوت ؟",
+            "reference": "وحدة قياس الصوت هي الديسيبل."
+        },
+        {
+            "instruction": "قم بتشكيل الجملة التالية: \"ليس بتضمين ولو اغتصبه إنسان من السارق فهلك في يده بعد القطع فلا ضمان للسارق ولا للمسروق منه أما السارق فلأنه ليس بمالك وأما المالك فلأن العصمة الثابتة له حقا قد بطلت قال القدوري وكان للمولى أن يضمنه الغاصب لأنه لو ضمن لا يرجع بالضمان على السارق وعلى هذا يخرج ما إذا سرق ثوبا فخرقه في الدار خرق\"",
+            "reference": "\"لَيْسَ بِتَضْمِينٍ وَلَوْ اغْتَصَبَهُ إنْسَانٌ مِنْ السَارِقِ فَهَلَكَ فِي يَدِهِ بَعْدَ الْقَطْعِ فَلَا ضَمَانَ لِلسَارِقِ وَلَا لِلْمَسْرُوقِ مِنْهُ أَمَا السَارِقُ فَلِأَنَهُ لَيْسَ بِمَالِكٍ وَأَمَا الْمَالِكُ فَلِأَنَ الْعِصْمَةَ الثَابِتَةَ لَهُ حَقًا قَدْ بَطَلَتْ قَالَ الْقُدُورِيُ وَكَانَ لِلْمَوْلَى أَنْ يُضَمِنَهُ الْغَاصِبَ لِأَنَهُ لَوْ ضَمِنَ لَا يَرْجِعُ بِالضَمَانِ عَلَى السَارِقِ وَعَلَى هَذَا يَخْرُجُ مَا إذَا سَرَقَ ثَوْبًا فَخَرَقَهُ فِي الدَارِ خَرْق\""
+        },
+        {
+            "instruction": "يجب على المدققين الداخليين أداء عملهم بأمانة وشجاعة ، هل ممكن ان تتحدث وتوضح ماهي الاعتبارات المرتبطة بهذا المتطلب ؟",
+            "reference": "يجب أن يكون المدققون الداخليون صادقين ودقيقين وواضحين ومفتوحين ومحترمين في جميع العلاقات والاتصالات المهنية. يجب على المدققين الداخليين عدم الإدلاء ببيانات كاذبة أو مضللة أو خادعة، ولا إخفاء أو حذف النتائج أو المعلومات الأخرى ذات الصلة من اتصالات المهمة. يجب على المدققين الداخليين الكشف عن جميع البيانات.\nالحقائق الجوهرية المعروفة لهم والتي إن لم يتم الكشف عنها فقد تؤثر على قدرة المنظمة على اتخاذ قرارات مستنيرة.\n\nيجب على المدققين الداخليين التحلي بالشجاعة من خلال التواصل بصدق واتخاذ الإجراءات المناسبة، حتى عندما يواجهون المعضلات والمواقف الصعبة. يجب على المدققين الداخليين التعامل مع الآخرين بمهنية واحترام، حتى عند التعبير عن شكوكهم أو عرض وجهة نظر معارضة.\n \nيجب على الرئيس التنفيذي للتدقيق الحفاظ على بيئة عمل يشعر فيها المدققون الداخليون بالدعم عند التعبير عن النتائج والاستنتاجات والتوصيات المشروعة والقائمة على الأدلة، سواء كانت مواتية أو غير مواتية."
+        },
+        {
+            "instruction": "ما هي عاصمة اوكرانيا؟",
+            "reference": "عاصمة اوكرانيا هي كييف."
+        },
+        {
+            "instruction": "ما هو الفرق بين نموذج البيانات النجمي ونموذج البيانات الثلاثي؟",
+            "reference": "في نموذج البيانات النجمي، هناك جدول رئيسي وجداول فرعية، بينما في النموذج الثلاثي، تكون الجداول متصلة مباشرة ببعضها."
+        },
+        {
+            "instruction": "بالنظر إلى العنوان أدناه وملخص للمقال ، قم بإنشاء مقالة قصيرة أو بداية مقالة طويلة لتتماشى معها. العنوان: الحوثيون يعلقون مفاوضاتهم مع الحكومة اليمنية بسبب \"تدخلات خارجية\" \nالملخص: أعلن الحوثيون تعليق المفاوضات مع الرئاسة اليمنية بسبب ما وصفوه بتدخل الأطراف الخارجية في سير المفاوضات. \\ n المقالة (بحد أقصى 500 حرف):",
+            "reference": "الحوثيون يرفضون سحب المسلحين من محيط العاصمة حتى تشكيل الحكومة\n\nوذكر الناطق باسم الحوثيين محمد عبد السلام في تصريحات منشورة له أن المفاوضات كانت حققت تقدما لكن بيان سفراء الدول العشر الراعية للمبادرة الخليجية إضافة إلى وضع المبعوث الأممي وممثلي الرئاسة تصورا قائما على منطلقات المبادرة الخليجية أعاق التوصل لاتفاق، حسبما ذكر مراسل بي بي سي عربي في صنعاء عبد الله غراب. وكان بيان لسفراء الدول الراعية للمبادرة الخليجية حمّل الحوثيين مسئولية أي تدهور أمني في العاصمة صنعاء."
+        },
+        {
+            "instruction": "ما هو الحيوان الذي يتحمل العطش أكثر من الجمل ؟",
+            "reference": "الزرافة."
+        }
+    ],
+    "English": [
+        {
+            "instruction": "While often confused with llamas, what breed of camelid is used for fleece production while its cousin, the llama, is not?",
+            "reference": "Alpaca"
+        },
+        {
+            "instruction": "What is the world’s most expensive spice?",
+            "reference": "Saffron"
+        },
+        {
+            "instruction": "Predict the dependency parsing of the following statement:\n\"I love apples\"\n",
+            "reference": "In this dependency parse tree, \"love\" is the root of the sentence, indicating that it is the main verb. \"I\" is the subject of the sentence, and \"apples\" is the direct object of the verb \"love.\" "
+        },
+        {
+            "instruction": "Explain the concept of collaborative filtering in recommendation systems, and give examples of its applications.",
+            "reference": "Collaborative filtering involves making recommendations based on user behavior and preferences. Examples include movie recommendations on streaming platforms and product recommendations in e-commerce."
+        },
+        {
+            "instruction": "The very first video released on YouTube",
+            "reference": "The very first video that was uploaded to YouTube is titled \"Me at the zoo.\" It was uploaded on April 23, 2005, by Jawed Karim, one of the co-founders of the platform. The video is 18 seconds long and features Karim standing in front of the elephant enclosure at the San Diego Zoo while briefly discussing elephants."
+        },
+        {
+            "instruction": "Can you elaborate on the positive impact of Sri Lanka's traditional \"Vil Uyana\" or ancient tree planting techniques in preserving biodiversity and ecological balance?",
+            "reference": "Sri Lanka's traditional \"Vil Uyana,\" or ancient tree planting techniques, positively contribute to preserving biodiversity and maintaining ecological balance. This traditional practice involves planting a variety of trees in a specific pattern to create a harmonious ecosystem. The positive impact is seen in the conservation of flora and fauna, soil fertility, and the overall health of ecosystems. Embracing \"Vil Uyana\" reflects a sustainable approach to land use that aligns with Sri Lanka's commitment to environmental stewardship."
+        },
+        {
+            "instruction": "What does the ggpairs() function do?",
+            "reference": "It plots the relationships between pairs of variables."
+        },
+        {
+            "instruction": "Explain the role of philosophers in the French Revolution of 1789.",
+            "reference": "The role of philosophers in the French Revolution of 1789 was:\n\nIn Two Treaties of Government, Locke sought to refute the doctrine of the divine and absolute right of the monarch.\nRousseau carried the idea forward, proposing a form of government based on a social contract between people and their representatives.\nIn the spirit of the laws, Moritesquieu proposed a division of power within the government between the legislative, the executive, and the judiciary.\nThe ideas of these philosophers were discussed intensely in salons and coffeehouses and spread among people through books and newspapers.\nThe patriotic song Marseillaise was composed by poet Roget de Lisle. It was sung for the first time by volunteers from Marseilles as they marched into Paris, hence its name. The Marseilles are now the national anthem of France."
+        },
+        {
+            "instruction": "Why was the Rowlatt Act imposed?",
+            "reference": "The Rowlatt Act authorized the government to imprison any person without trial and conviction in a court of law."
+        },
+        {
+            "instruction": "What are the different types of artificial intelligence?",
+            "reference": "There are three main types of artificial intelligence: narrow or weak AI, general or strong AI, and artificial superintelligence."
+        },
+        {
+            "instruction": "Welche ist die Hauptstadt Deutschlands?",
+            "reference": "Seit 1990 ist Berlin die Hauptstadt Deutschlands."
+        },
+        {
+            "instruction": "Question: The mode of nutrition in Fungi is –\n\na. Autotrophic nutrition\nb. Holozoic nutrition\nc. Saprotrophic nutrition\nd. Parasitic nutrition\n\nAnswer:",
+            "reference": "Answer: (c)\n\nThe mode of nutrition in fungi is saprotrophic i.e. obtaining nutrients from dead organic matter.\n\nAutotrophic nutrition is the mode of nutrition in which organisms synthesize their own food. Organisms that cannot prepare their own food are said to have heterotrophic nutrition.\n\nIn parasitic nutrition, an organism (parasite) lives in or on another organism (host) and takes its nutrition from it and thus, harms it."
+        },
+        {
+            "instruction": "Which city is the capital of Russia?",
+            "reference": "The capital of Russia is Moscow."
+        },
+        {
+            "instruction": "Which country won the Euro-2016 football championship?\n\n",
+            "reference": "Portugal won the Euro 2016 football championship. This was their first major tournament win in their history. The final match was held on July 10, 2016, where Portugal defeated France 1-0 in extra time, with the winning goal scored by Eder."
+        },
+        {
+            "instruction": "What is the difference between structured and unstructured data in the context of data analytics?",
+            "reference": "Structured data is highly organized and follows a fixed format, while unstructured data lacks a predefined structure and includes text, images, and videos."
+        },
+        {
+            "instruction": "What is the most popular carbonated beverage?",
+            "reference": "Coca-Cola"
+        },
+        {
+            "instruction": "What is a Database Management System?\n",
+            "reference": "The software which is used to manage databases. E.g. Oracle, MongoDB, Microsoft SQL Server, SQLite, and PostgreSQL.\n"
+        },
+        {
+            "instruction": "What is the significance of the F1 score in evaluating NLP models?",
+            "reference": "The F1 score is a metric that balances precision and recall in classification tasks. It is particularly useful when dealing with imbalanced datasets."
+        },
+        {
+            "instruction": "Given the following statement, predict the tags for each word: Which elements of specific artworks do they focus on?",
+            "reference": "Here are the predicted parts of speech tags for each word in the sentence \"Which elements of specific artworks do they focus on?\":\nWhich: DET\nelements: NOUN\nof: ADP\nspecific: ADJ\nartworks: NOUN\ndo: AUX\nthey: PRON\nfocus: VERB\non: ADP\n?: PUNCT"
+        },
+        {
+            "instruction": "What does frank mean?",
+            "reference": "It means very host."
+        }
+    ],
+    "Simplified_Chinese": [
+        {
+            "instruction": "蜂蜜",
+            "reference": "大西洋西部"
+        },
+        {
+            "instruction": "请回答以下问题：\n问题：人工智能能否具有意识和情感？\n",
+            "reference": "\n答案：目前人工智能还无法具有真正的意识和情感，它们只是模拟人类的智能行为。"
+        },
+        {
+            "instruction": "问题：可以单独购买数字键盘吗？\n",
+            "reference": "答案：是的，市场上有一些单独的数字键盘出售，可以通过USB或蓝牙连接到电脑使用。"
+        },
+        {
+            "instruction": "问题：老虎的体型有多大？\n",
+            "reference": "回答：成年雄性老虎体长可达2.5米至3.3米，体重可超过300千克。"
+        },
+        {
+            "instruction": "DC 的消费水平如何？",
+            "reference": "DC 的消费水平较高，是美国生活成本较高的城市之一。"
+        },
+        {
+            "instruction": "问题：韩国在13世纪时曾经被哪个帝国统治？\n",
+            "reference": "答案：韩国在13世纪时曾被蒙古帝国统治。"
+        },
+        {
+            "instruction": "我们熟悉的《百家姓》是按照什么方式排列的？",
+            "reference": "《百家姓》是按照政治地位排列的。“赵钱孙李”成为《百家姓》前四姓是因为百家姓形成于宋朝的吴越地区，故而宋朝皇帝的赵氏、吴越国国王钱氏、吴越国王钱淑正妃孙氏以及吴越国的邻国南唐国主李氏成为百家姓前四位。"
+        },
+        {
+            "instruction": "请回答以下问题：\n\n问题：\n美国文化中的流行音乐风格有哪些？\n\n",
+            "reference": "答案：\n美国流行音乐包括摇滚乐、嘻哈音乐、乡村音乐、爵士乐和流行舞曲等。这些音乐风格在美国文化中具有广泛的影响力，代表了不同的音乐流派和时代。"
+        },
+        {
+            "instruction": "我怎样才能使用支付宝？",
+            "reference": "你可以在手机应用商店下载支付宝应用，然后进行注册和实名认证，就可以开始使用了。"
+        },
+        {
+            "instruction": "什么是真随机数和伪随机数？\n",
+            "reference": "真随机数是完全不可预测的数字，它们不遵循任何确定性的模式或序列。伪随机数虽然看起来像随机数，但实际上是由确定性的过程生成的。"
+        },
+        {
+            "instruction": "问题：朝鲜传统艺术中的面具舞是什么？\n",
+            "reference": "答案：朝鲜传统艺术中的面具舞是一种表演形式，舞者戴着不同的面具表演各种角色。"
+        },
+        {
+            "instruction": "西方思想史上第一部乌托邦著作是什么？",
+            "reference": "柏拉图的《理想国》"
+        },
+        {
+            "instruction": "问题：三星在人工智能领域有何发展？\n",
+            "reference": "答案：三星在人工智能领域投入了大量资源，开发智能助手和语音识别技术等。"
+        },
+        {
+            "instruction": "问题：我可以在QQ上发送语音消息吗？\n",
+            "reference": "答案：是的，你可以在QQ上发送语音消息。"
+        },
+        {
+            "instruction": "请回答以下问题：\n\n问题：\n什么是古琴，它在中国音乐中的地位如何？\n\n",
+            "reference": "答案：\n古琴是中国传统的七弦弹拨乐器，具有悠久的历史和独特的音色。在中国音乐中，古琴被视为高雅的乐器，代表着中国音乐文化的精髓和传统。"
+        },
+        {
+            "instruction": "请给以下的文言文它的译文：\n吕蒙正相公不喜记人过。初参加政事，入朝堂，有朝士于帘内指之曰：“是小子亦参政耶？”蒙正佯为不闻而过之。其同列怒，令诘其官姓名，蒙正遽止之。罢朝，同列犹不能平，悔不穷问。蒙正曰：“一知其姓名，则终身不能复忘，固不如无知也。不问之，何损？”时人服其量。",
+            "reference": "吕蒙正先生不喜欢记着别人对他的犯下的错。当初刚任参知政事的时候，上朝时，有一个朝廷官员在帘内指着他说：“这样的粗陋之人也能够参与朝政吗？”蒙正假装没有听到走了过去。他的同事很愤怒，让人询问那位官员的姓名，蒙正急忙制止了同事。朝事结束后，他的同事心中仍然愤愤不平，后悔没有追问到底。蒙正说： “一旦知道了他的姓名，那么我终身不能再忘了他，还不如不知道。没有查询他的姓名，又有什么损失呢？”当时的人都很佩服他的气量。"
+        },
+        {
+            "instruction": "问题：最常见的鱼类是什么\n",
+            "reference": "答案：金鱼"
+        },
+        {
+            "instruction": "PUA有哪些常见的手法？",
+            "reference": "答：PUA的手法多种多样，包括但不限于“冷读”（通过观察对方的行为和反应来推测对方的想法和感受）、“镜像”（模仿对方的言谈举止以建立信任）、“否定”（通过贬低对方以降低其自尊心并增加其对你的依赖）等。然而，需要强调的是，这些手法往往涉及到对他人的操控和侵犯，是不道德的。\n"
+        },
+        {
+            "instruction": "什么门永远关不上",
+            "reference": "答案：球门"
+        },
+        {
+            "instruction": "问题：什么是机器视觉？",
+            "reference": "答案：机器视觉是指让计算机系统具备模拟人类视觉功能，能够识别、理解和解释图像或视频的技术领域。"
+        }
+    ],
+    "Portuguese": [
+        {
+            "instruction": "Por favor, complete esta frase: Mandela passou 27 anos na prisão, inicialmente em Robben Island e",
+            "reference": "mais tarde, nas prisões de Pollsmoor e Victor Verster. Depois de uma campanha internacional, ele foi libertado em 1990, quando recrudescia a guerra civil em seu país. "
+        },
+        {
+            "instruction": "Quantos jogos Rogério Ceni fez por um único clube?",
+            "reference": "Rogério Ceni atuou em 1237 partidas pelo São Paulo Futebol Clube."
+        },
+        {
+            "instruction": "O que quer dizer \"Pirar na batatinha?\"",
+            "reference": "Significa ficar pensando em coisas incoerentes."
+        },
+        {
+            "instruction": "Foi-se o tempo em que era possível mostrar um mundo econômico organizado em camadas bem definidas, onde grandes centros urbanos se ligavam, por si próprios, a economias adjacentes “lentas”, com o ritmo muito mais rápido do comércio e das finanças de longo alcance. Hoje tudo ocorre como se essas camadas sobrepostas estivessem mescladas e interpermeadas. Interdependências de curto e longo alcance não podem mais ser separadas umas das outras.\n\nA maior complexidade dos espaços urbanos contemporâneos ressaltada no texto explica-se pela:\n\na) expansão de áreas metropolitanas.\nb) emancipação de novos municípios.\nc) consolidação de domínios jurídicos.\nd) articulação de redes multiescalares.\ne) redefinição das regiões administrativas.",
+            "reference": "A resposta correcta é a alternativa: d) articulação de redes multiescalares."
+        },
+        {
+            "instruction": "Descreva o símbolo do Flamengo.",
+            "reference": "O símbolo do Flamengo apresenta um escudo vermelho e preto com as iniciais \"CRF\" no centro, que representam Clube de Regatas do Flamengo. Abaixo das iniciais, há uma âncora e uma cruz, indicando as origens do clube como um clube de regatas e a influência da cultura naval."
+        },
+        {
+            "instruction": "Descreva a bandeira de Burkina Faso.",
+            "reference": "A bandeira de Burkina Faso é composta por duas faixas horizontais de cores vermelha (superior) e verde (inferior), com uma estrela amarela de cinco pontas no centro da faixa vermelha."
+        },
+        {
+            "instruction": "O que caracteriza o signo chinês de Cavalo?",
+            "reference": "É popular, esperto e bem-humorado, com um grande grupo de amigos. É esforçado, leal e protetor. Por vezes, aparenta ser egocêntrico por suas escolhas e pela autoconfiança no modo de agir. Não saber guardar segredos, já que sente necessidade de dividir o que sabe. "
+        },
+        {
+            "instruction": "Como você escaparia de uma ilha deserta?",
+            "reference": "Uma possível solução é construir uma jangada usando materiais naturais que você encontrasse na ilha, como madeira, folhas, cipós, etc. Você também precisaria de um remo, uma vela, e algum tipo de bússola ou mapa para se orientar. Você teria que esperar por um dia de vento favorável, levar água e comida suficientes, e vestir roupas adequadas para se proteger do sol e do frio. Você navegaria em direção à civilização mais próxima, ou tentaria chamar a atenção de algum navio ou avião que passasse por perto."
+        },
+        {
+            "instruction": "Quanto tempo a luz do Sol demora para chegar à Terra?",
+            "reference": "8 minutos."
+        },
+        {
+            "instruction": "O que significa 'Registro de Petição de Recurso'?",
+            "reference": "'Registro de Petição de Recurso' indica que uma petição de recurso foi apresentada no processo e registrada oficialmente, dando início ao trâmite do recurso."
+        },
+        {
+            "instruction": "O que é a atrofia muscular?",
+            "reference": "A atrofia muscular é a perda de massa muscular e força devido à falta de uso ou a condições médicas, como imobilização prolongada. É comum em pacientes que ficam acamados por longos períodos."
+        },
+        {
+            "instruction": "Em 2021, qual foi o IDH de Andorra?",
+            "reference": "0,858."
+        },
+        {
+            "instruction": "Descreva a bandeira das Ilhas Marshall.",
+            "reference": "A bandeira das Ilhas Marshall apresenta um campo azul com duas faixas diagonais, uma laranja e uma branca, que se cruzam do canto inferior esquerdo para o canto superior direito. No canto superior esquerdo, há um círculo azul com um sol dourado estilizado. A bandeira reflete o oceano que circunda as ilhas, o sol brilhante e a independência do país."
+        },
+        {
+            "instruction": "Cuiabá é capital de qual estado brasileiro?",
+            "reference": "Mato Grosso."
+        },
+        {
+            "instruction": " Quem são os autores das seguintes frases?\n“Se queres prever o futuro, estuda o passado.”\n“Cada segundo é tempo para mudar tudo para sempre.”\n\na) Augusto Cury e João Paulo II\nb) Albert Camus e Albert Einstein\nc) Victor Hugo e Eleanor Roosevelt\nd) Madre Teresa de Calcutá e Confúcio\ne) Confúcio e Charles Chaplin",
+            "reference": "Resposta correta: e) Confúcio e Charles Chaplin.\n\nConfúcio (551- 479 a.C.), filósofo chinês que se preocupou com a questão da cultura, disse a frase “Se queres prever o futuro, estuda o passado.”\n\nCharles Chaplin (1889-1977), o famoso artista do cinema mudo, é o autor da frase “Cada segundo é tempo para mudar tudo para sempre.”"
+        },
+        {
+            "instruction": "Quem foi Mario Levrero? Qual seu livro mais conhecido?",
+            "reference": "Mario Levrero foi um renomado escritor uruguaio (1940 - 2003). “O romance luminoso” é um livro que narra as confusões cotidianas de um homem de sessenta anos, tomado por fobias e superstições, que deseja escrever um romance. Para o autor uruguaio, a transcendência só poderia surgir da repetição de manias que atribui à vida real sua condição de permanente adiamento. A leitura do \"Romance Luminoso\" é indispensável, já que aborda temas cotidianos e contemporâneos, fomentados por um pano de fundo quase familiar e reconhecível. "
+        },
+        {
+            "instruction": "Estar com a bola murcha, qual é o significado?",
+            "reference": "Significa estar desanimado."
+        },
+        {
+            "instruction": "Quando o Paysandu foi fundado?",
+            "reference": "O Paysandu foi fundado em 2 de fevereiro de 1914."
+        },
+        {
+            "instruction": "O que é o projeto TAMAR?",
+            "reference": "O Projeto TAMAR, criado em 1980, realiza o manejo, conservação e pesquisa das tartarugas marinhas, além de educação ambiental e ações na busca do desenvolvimento sustentável nas comunidades onde atua."
+        },
+        {
+            "instruction": "Qual das palavras abaixo está incorreta quanto à acentuação?\nNoite, Vôo, Fácil, Varanda, Criança",
+            "reference": "A palavra \"Vôo\" está incorreta quanto à acentuação. A forma correta é \"Voo\" sem acento no \"ô.\""
+        }
+    ],
+    "Telugu": [
+        {
+            "instruction": "మీ చిన్నప్పటి అనుభవాలను తెల్పండి.",
+            "reference": "నా చిన్నతనంలో నాకు తొందరగా నడవడం రాలేదు. మా అమ్మ చేయి పట్టుకొని నడిపించేది. కొన్ని మాటలు పలకడం వచ్చేది కాదు. మా అమ్మ ఆ మాటలను పదేపదే పలికించేది. అలా నేర్పింది. ఒకసారి ఒకటవ తరగతిలో ఒక అబ్బాయి నన్ను కొట్టాడు, దానితో బడికి వెళ్లనని ఏడ్చాను. మా అమ్మ నన్నెంతో బ్రతిమాలింది. అయినా వినలేదు. చివరకు అమ్మ కూడా కొట్టింది. తర్వాత చాక్లెట్లు ఇచ్చి బుజ్జగించింది. నన్ను ఎత్తుకొని కబుర్లు చెబుతూ, నవ్విస్తూ బడికి తీసుకొని వచ్చింది. నన్ను కొట్టిన అబ్బాయితో మాట్లాడింది. కొట్టుకోవడం తప్పని చెప్పింది. వాడికీ చాక్లెట్లు నా చేత ఇప్పించింది. స్నేహంగా ఉండాలని చెప్పింది. అప్పటి నుంచీ ఇద్దరం ప్రాణ స్నేహితులుగా మారిపోయాం . వాడే నా స్నేహితుడు రాము."
+        },
+        {
+            "instruction": "L1 = 2x + 2y – 8 = 0 మరియు L2 = x + y – 4 = 0 లు ఏకీభవించే రేఖలు మరియు L1 = kL2 గా రాస్తే k విలువ ఎంత?",
+            "reference": "L1 = 2x + 2y – 8 = 0, L2 = x + 2y – 4 = 0\n= 1/2 (2x + 2y – 8) = 0\nL2 = (1/2)L1 ⇒ L1 = L2\n∴ k = 2"
+        },
+        {
+            "instruction": "అక్షరం అనగా ఏమి?",
+            "reference": "అక్షరం అంటే పలికే ధ్వనికి ఏర్పరచుకొన్న గుర్తు. ఈ అక్షరాలన్నింటిని ఒకటిగా చేర్చి వర్ణమాల అంటున్నాం. కొన్ని అక్షరాలు కలిస్తే పదాలు ఏర్పడుతాయి. కొన్ని పదాలతో వాక్యం ఏర్పడుతుంది. "
+        },
+        {
+            "instruction": "సృజనాత్మకతకు ఉన్న పార్శ్వాలను వివరించండి. జతపరచడం",
+            "reference": "సృజనాత్మకతకు చాలా కోణాలున్నాయి. అవి నూతన ఆవిష్కరణలు కావచ్చు. కొత్త ప్రయోగాలు కావచ్చు. లేదా ఉన్న వాటినే కొత్తగా తెలుసుకోవడం కూడా కావచ్చు. ఉన్న భావాలను తిరిగి ప్రయోగించడం ద్వారా, ద్వారా, మార్చడం ద్వారా కొత్త విషయాలు కనుక్కోగలిగే సామర్థ్యం, ఊహించగలిగే సామర్థ్యాలను సృజనాత్మకత అంటారు. సృజనాత్మకత అనేది ఒక వైఖరి.\n\nఅది కొత్తదనాన్ని, మార్పునీ అంగీకరించగలిగే భావాలతో, ఊహలతో కూడిన మానసిక స్థితి. జీవనాన్ని విజయవంతంగా గడపడం, మంచిదైన ప్రతిదాన్నీ అనందిస్తూనే దాన్ని మరింత మంచిగా చేయగలిగే అవకాశాలకోసం వెదకడాన్ని సృజనాత్మకత అంటారు. సృజనాత్మకత అంటే కష్టించి పనిచేయటం. మన భావాల్నీ, మనకు లభ్యమవుతున్న పరిష్కారాల్నీ క్రమంగా మార్చుకుంటూ, మరింత పదును పెట్టుకుంటూ నెమ్మదిగా ముందుకు వెళ్ళడం. దేన్నైనా అందరూ చూస్తున్నట్లే చూసి ఆ చూసిన దాని గురించి మిగిలిన వారికంటే భిన్నంగా ఆలోచించటమే సృజనాత్మకత ముఖ్యలక్షణం."
+        },
+        {
+            "instruction": "నిమటోడా ప్రొటోస్టోమియా సమూహానికి చెందింది కానీ యూసీలోమేట్ కాదు. ఈ వ్యాఖ్యానాన్ని సమర్థించండి.",
+            "reference": "నిమటోడా జీవులు యుసీలోమేటా జీవులు కాకపోవుటకు కారణము వీటి శరీర కుహరము మధ్యస్త్వచ ఉపకళా స్తరములతో ఆవరింపబడి ఉండదు. కాబట్టి దీనిని నిజశరీర కుహరముగా పేర్కొనరు. అందువలన దీనిని మిధ్యా శరీర కుహరముగా గుర్తించెదరు."
+        },
+        {
+            "instruction": "ప్రియసఖా!\nనీ లేఖ అందింది. పట్నం జీవితం ఎలా ఉంటుందో అందులో వర్ణించావు. పల్లెటూరి జీవితాన్ని చిత్రిస్తూ ఉత్తరం రాయమన్నావు. నీది ఉత్తమమైన వాంఛ. ఒకచోటి జీవిత విధానంలో మరొకచోటి జీవిత విధానాన్ని నిత్యమూ పోల్చి తెలుసుకొంటూ ఉండాలి. మంచి చెడ్డలు, హెచ్చుతగ్గులు ఏమైనా ఉంటే సరి చేసుకోవాలి. ఈ వాంఛ నీకు కలిగినందుకు అభినందిస్తున్నాను. నీ పట్న జీవితం నా పల్లెటూరి జీవితంతో పోలిస్తే పరస్పర విరుద్ధంగా ఉంటుంది. నా జీవిత విధానాన్ని గురించి రాయడమంటే పల్లెటూళ్ళ జీవిత విధానాన్ని గురించి రాయడమన్నమాట. పల్లెటూళ్ళు, అక్కడి వాళ్ళ జీవితాలు ఎలా ఉంటాయో నీకు తెలుసా? విద్యుద్దీపాలతో, పంఖాలు ఉన్న మేడలలో హాయిగా సుఖించే నీకు ఏమి తెలుస్తుంది? నీకుమా గ్రామ జీవితం అర్థం కావాలంటే, మా ఇంటికి ఒకసారి రా! ఈ పూరి గుడిసెలో ఒక్కరోజు ఉండు.\n\nఇటు,\nనీ మిత్రుడు.\n\nఇచ్చిన లేఖ ప్రకారం ఇచ్చిన ప్రశ్నకి జవాబు రాయండి:\nలేఖను చదివారు కదా? మీరు ఏం గ్రహించారు?",
+            "reference": "లేఖా రచయిత పల్లెటూరి వాడు. పేదవాడు. పట్నవాసంలో సుఖం ఉందని అతని భావన. పల్లెటూరి జీవితం, పట్నవాసపు జీవితం పరస్పర విరుద్ధమైనవని అతని భావం."
+        },
+        {
+            "instruction": "ప్రశ్న : వాతావరణ మార్పులు ప్రస్తుతం మానవుల జీవితాలను ఏ విధంగా ప్రభావితం చేస్తున్నాయి? మీ ఉపాధ్యాయులు, స్నేహితులతో చర్చించి సమాధానం వ్రాయండి.\n",
+            "reference": "వాతావరణ మార్పులు ప్రస్తుతం మానవుల జీవితాలను క్రింది విధంగా ప్రభావితం చేస్తున్నాయి\n\nవాతావరణంలో మార్పులు మానవ జీవితంలో అభివృద్ధి సూచికగా చెప్పవచ్చును. వాతావరణంలో మార్పులు వలన మొక్కలు, చెట్లు, గడ్డి భూములు పెరిగి తద్వారా వ్యవసాయం, పచ్చదనం విస్తరించింది.\nగడ్డితినే జంతువులయిన ఎద్దులు, గొర్రెలు, మేకలు, జింకలు మొదలైన వాటి సంఖ్య క్రమంగా పెరిగింది, జంతువులను మచ్చిక చేసుకోవటం, పశుపోషణ పెరిగింది.\nవ్యవసాయంలో (పంటల దిగుబడిలో) గుర్తించదగిన అభివృద్ధి సాధించటం జరిగింది.\nఅయితే వాతావరణంలో నేడు అనేక కాలుష్య పదార్థాలు చేరి, వాతావరణ సమతౌల్యతను దెబ్బతీస్తూ, అతివృష్టి, – అనావృష్టి మొదలైన ప్రకృతి భీభత్సాలకు ఏర్పడుతున్నాయి."
+        },
+        {
+            "instruction": " అయస్కాంత అభివాహానికి SI ప్రమాణం\nA) వెబర్\nB) వోల్ట్\nC) ఆంపియర్\nD) కూలుంట్",
+            "reference": "A) వెబర్"
+        },
+        {
+            "instruction": "ఇచ్చిన సంధి గురించి రాయండి మరియు ఉదాహరణలు కూడా రాయండి: యణాదేశ సంధి",
+            "reference": "ఇ, ఉ, ఋలకు వాని అసవర్ణాచ్చులు పరమైనపుడు క్రమంగా య, వ, రలు ఆదేశమగును.\n\nఅత్యంత = అతి + అంత = యణాదేశ సంధి\nధుర్యాత్మ = ధురి + ఆత్మ = యణాదేశ సంధి"
+        },
+        {
+            "instruction": "‘కాటుక గ్రుక్కినట్టి కరవటంబున జగదండ ఖండమమెరె’ ఈ మాటలు కవి ఏ సందర్భంలో పేర్కొన్నాడో వివరించండి. ఈ పోలికను విశ్లేషించండి.",
+            "reference": "సంధ్యా సమయం తర్వాత విశ్వమంతా చీకటి వ్యాపించిందని చెబుతున్న సందర్భంలో కవి ఈ మాటలను పేర్కొన్నాడు.\n\nచీకటిలో భూమి, ఆకాశం, దిక్కులూ అన్నీ కలిసి పోయాయి. అప్పుడు బ్రహ్మాండ ఖండం కాటుక నింపిన పెద్ద భరిణెలా ఉందన్నాడు. బ్రహ్మాండంలో 14 లోకాలుంటాయి. పై లోకాలు 7. క్రింది లోకాలు 7. మధ్యలోనిది భూలోకం. చీకటి కేవలం భూగోళానికి మాత్రమే ఏర్పడింది. అందుకే పైన, క్రింద సమానమైన మూతలు గల భరిణెతో భూగోళాన్ని పోల్చాడు. దీనిద్వారా ఎఱ్ఱనగారి పరిశీలనా దృష్టి, లోకజ్ఞానం వ్యక్తమౌతున్నాయి."
+        },
+        {
+            "instruction": "ఏ వాక్యముతో నీవు ఏకీభవిస్తావు ?\nP : రెండు కరణీయ సంఖ్యల లబ్దం ఎల్లప్పుడూ – అకరణీయ సంఖ్యే.\nQ : అకరణీయ మరియు కరణీయ సంఖ్యల లబ్దం ఎల్లప్పుడూ కరణీయ సంఖ్య.\ni) P మాత్రమే\nii) Q మాత్రమే\niii) P మరియు Q",
+            "reference": "ii) Q మాత్రమే"
+        },
+        {
+            "instruction": "ఇచ్చిన గద్యానికి కొనసాగింపుగా ఒక పేరా రాయండి:\nతెల్లవారుతుండగా పోలీసులు గ్రామంలోకి ప్రతి ఇల్లును సోదాచేస్తున్నారు. గొల్ల రామవ్వ ఇంటికి కూడా వచ్చారు. ఆమె భయపడిపోయింది. కాంగ్రెస్ వాలంటీర్ అయిన ఆ యువకుని ఎలాగైనా రక్షించాలనుకుంది. తన మనవరాలిని గొంగళితో ఆయువకుని కప్పి ఉంచమన్నది. వారిద్దరిని ఒకే మంచంపై పడుకోమని ఆజ్ఞాపించింది. అతనికి గొల్లవేషం వేయించింది. ఇంటిలోపలికి ప్రవేశించిన పోలీసులతో ఆ పిల్లలిద్దరూ నా మనవరాలు ఆమె పెనిమిటి అని బొంకింది. పోలీసోడు గొల్లరామవ్వను వాడు ఎవడన్నావ్. కాంగ్రెసోడా ఏం అని ప్రశ్నించిన రామవ్వ కంగారు పడలేదు.",
+            "reference": "పోలీసులు వెళ్ళిపోయారు. రామవ్వ మంచం మీద కూర్చొంది. ఒక వైపు యువకుడు, మరోవైపు ఆమె మనవరాలు వారిది అపూర్వ సమ్మేళనం అన్పించింది ఆ యువకునికి “అవ్వా! నీవు సామాన్యురాలివి కావు. ‘సాక్షాత్ భరతమాతవే’ అన్నాడు. ఇలా ఒక విప్లవ కారుని సామాన్య వృద్ధురాలు రక్షించిన కథే గొల్ల రామవ్వ కథ."
+        },
+        {
+            "instruction": "అయ్యలరాజు రామభద్రుని కవితా విశిష్టతను తెలుపుతూ మిత్రునికి లేఖ రాయండి.",
+            "reference": "తిరుపతి,\nx x x x\n\nప్రియమైన మిత్రుడు సతీష్ చంద్రకు,\n\nనీ మిత్రుడు వ్రాయునది. నేను బాగా చదువుతున్నాను. నీవు కూడా బాగా చదువుతున్నావని ఆశిస్తున్నాను. ముఖ్యముగా వ్రాయునది మా తెలుగు పాఠ్యాంశాల్లో సముద్రలంఘనం పాఠం ఒకటి. ఇది వర్ణనాత్మక పాఠం. దీన్ని అయ్యలరాజు రామభద్రుడు అనే కవి రచించాడు. రామభక్తుని వర్ణనాత్మక రచన అందరిని ఆకట్టుకుంటుంది. ఈ మహాకవి వర్ణనలు సహజంగా ఉంటాయి. ప్రకృతి దృశ్యాలను కళ్ళకు కట్టినట్టుగా తెలియచేశారు. హనుమంతుని పరారకమాన్ని సుమనోహరంగా వర్ణించాడు. అందువల్లనే నాకు రామభద్రుని వర్ణనాత్మక రచన అంటే ఇష్టం. నీవు ఏ కవిని అభిమానిస్తావో నాకు తెలియజేయి. పెద్దలందరికి నమస్కారములు తెలుపగలవు.\n\nఇట్లు,\nనీ ప్రియ మిత్రుడు,\nx x x x x x\n\nచిరునామా :\nవి.సతీష్ చంద్ర, 10వ తరగతి,\nజిల్లాపరిషత్ బాలుర ఉన్నత పాఠశాల,\nమంగళగిరి, గుంటూరు జిల్లా, ఆంధ్రప్రదేశ్."
+        },
+        {
+            "instruction": "కింది ప్రశ్నకు సమాధానం ఇవ్వండి\nకేంద్రక రియాక్టర్ నియంత్రణ కడ్డీల పాత్ర ఏమిటి?",
+            "reference": "నియంత్రణ కడ్డీలు :\nకేంద్రక రియాక్టర్లో న్యూట్రాన్లను శోషించడానికి వాడే కడ్డీలను నియంత్రణ కడ్డీలు అంటారు. నియంత్రణ కడ్డీలకు వాడే పదార్థాలు కాడ్మియం, బెరీలియం, బోరాన్.\n\nరియాక్టర్ నియంత్రణ కడ్డీలను బయటకు లాగితే, పనిచేస్తుంది. లోపలికి నెట్టితే, రియాక్టర్ ఆగిపోతుంది."
+        },
+        {
+            "instruction": "ప్రశ్న : రాజులు విధించే పన్నుల వల్ల గ్రామపెద్దలు ఏ విధంగా లాభపడేవారు?\n",
+            "reference": "వ్యాపారస్తుల నుండి తమ తరఫున పన్నులు వసూలు చేయాలని గ్రామపెద్దని రాజులు కోరేవారు. ఈ పన్నులు వసూలు చేసినందుకు గాను రాజు వీరికి కొంత శాతం ముట్టచెప్పేవారు. ఈ విధంగా రాజులు విధించే పన్నుల వల్ల గ్రామ పెద్దలు తమ అధికారం, సంపద పెంచుకుని లాభపడేవారు."
+        },
+        {
+            "instruction": "త అక్షరంతో మొదలయ్యే పదాలు మరియు వాటి అర్ధాలు ఇవ్వండి",
+            "reference": "తడయు = ఆలస్యంచేయు\nతడవ = మారు, మాటు, సారి (మొదటిసారి)\nతంత్రం = ఉపాయం\nతన్మయులు = తత్స్వరూపమైనవారు, తమను తాము మరచినవారు\nతమం = చీకటి\nతర్కం = ఊహ, కారణం, కోరిక, ఒక శాస్త్రం\nతాపసులు = తపస్సుచేసుకునేవారు\nతారక = చుక్క\nతారాడడం తిరుగులాడడం, జీరాడడం\nతాల్మి = క్షమ, ఓర్పు\nతిమిరం = చీకటి\nతుల్యం = సమము, సరి\nతొంటి = తొల్లి, మొదటి, తొలుత\nతొఱగు (క్రి) = విడుచుట, త్యజించుట"
+        },
+        {
+            "instruction": "ప్రత్యక్ష ప్రజాస్వామ్య సాధనాలను రాయండి.",
+            "reference": "ప్రత్యక్ష ప్రజాస్వామ్య సాధనాలు నాలుగు. అవి:\n\nప్రజాభిప్రాయ సేకరణ\nప్రజాభిప్రాయ నివేదన\nపునరాయనము\nప్రజాభిప్రాయ నిర్ణయం."
+        },
+        {
+            "instruction": "కింది ప్రశ్నకు సమాధానం ఇవ్వండి\nఅణువుల మధ్య పనిచేసే అంతర్ అణుబలాల స్వభావం ఆధారంగా కింది ఘనపదార్థాలను భిన్న రకాలుగా వర్గీకరించండి.\nపొటాషియమ్ సల్ఫేట్, టిన్, బెంజీన్, యూరియా, అమోనియా, నీరు, జింక్ సల్ఫైడ్, గ్రాఫైట్, రుబీడియమ్, ఆర్గాన్, సిలికాన్ కార్బైడ్.",
+            "reference": "అయానిక పదార్థాలు : K2SO4, ZnS\nసంయోజనీయ పదార్థాలు : గ్రాఫైట్, SiC\nఅణు ఘన పదార్థాలు : బెంజీన్, యూరియా, NH3, H2O, Ar\nలోహ ఘన పదార్థాలు : రుబీడియం, టిన్"
+        },
+        {
+            "instruction": "క్రింది ప్రశ్నకి ఒక్కమాటలో జవాబునివ్వండి.  \nహిమాలయాల్లో అన్నిటి కంటే దక్షిణంగా ఉన్న శ్రేణి ఏది?",
+            "reference": "శివాలిక్."
+        },
+        {
+            "instruction": "తెలుగు వ్యావహారిక భాషలో తరచు వాడే కింద ఇచ్చిన జాతీయం గురించి వివరించండి:  \nఉలుకు పలుకూ లేకపోవడం",
+            "reference": "‘ఉలుకు’ అంటే భయం ‘పలుకు’ అంటే మాట ఎవరైనా ఎక్కడైనా భయంకరమైన జంతువును చూచినప్పుడుగాని, భయంకరాకృతిని చూచిన సందర్భంలోను నిశ్చేష్ఠులై పడి ఉండటాన్ని ఈ పదం తెలియజేస్తుంది. నిష్క్రియత్వం లేకపోవడమే ఉలుకు పలుకూ లేకపోవడం."
+        }
+    ],
+    "Russian": [
+        {
+            "instruction": "Ответьте на вопрос: В каком году к СССР присоединился Таджикистан?",
+            "reference": "Таджикистан присоединился к СССР (Советскому Союзу) в 1929 году 5 декабря."
+        },
+        {
+            "instruction": "Вопрос: Столица Словакии? Ответ:",
+            "reference": "Столица Словакии - Братислава."
+        },
+        {
+            "instruction": "Завершите следующее предложение:  В 1941 году после начала Второй мировой войны решил уйти добровольцем на фронт, участвовал в обороне Москвы, затем в",
+            "reference": "сражении на Курской дуге и наконец в боях за освобождение Львова."
+        },
+        {
+            "instruction": "Вопрос: какие языки наиболее распространены на территории России?",
+            "reference": "По данным 2022 года Института языкознания РАН, на территории России в общем списке 155 языков, еще 15 языков в списке заснувших и исчезнувших с начала ХХ века."
+        },
+        {
+            "instruction": "Объясни следующий анекдот:\nТри логика заходят в бар. \n- Чай все будут? — спрашивает бармен.\n- Не знаю, - отвечает первый логик. \n- Не знаю, - говорит второй. \n- Да! - восклицает третий.",
+            "reference": "Этот анекдот основан на игре слов и подразумевает двусмысленность в вопросе бармена. Когда бармен спрашивает: \"Чай все будут?\", — он фактически спрашивает, хотят ли все трое заказать чай. Первый и второй логики, отвечая : \"Не знаю\", — вероятно, пытаются оценить предпочтения остальных двух логиков, чтобы определить, будут ли они заказывать чай или нет. Третий логик отвечает: \"Да\", —  подразумевая, что все три логика будут заказывать чай. Таким образом, анекдот играет с понятием логического мышления и ожиданий, которые могут быть связаны с логикой."
+        },
+        {
+            "instruction": "Вопрос: Столица Словении? Ответ:",
+            "reference": " Cпасибо за вопрос! Столица и крупнейший город Словении - Любляна."
+        },
+        {
+            "instruction": "Вопрос: Назови дату распада Чехословакии. Ответ:",
+            "reference": "31 декабря 1992 года Чехословакия официально распалась на два независимых государства Чехию и Словакию."
+        },
+        {
+            "instruction": "Между какими двумя организмами наиболее вероятно возникновение конкуренции? Доступные варианты: - олени и бабочки; - совы и бактерии; - золотые рыбки и кролики; - трава и клубника.",
+            "reference": "трава и клубника"
+        },
+        {
+            "instruction": "Назовите крупнейший остров в мире.",
+            "reference": "Крупнейший остров в мире - Гренландия."
+        },
+        {
+            "instruction": "Что такое формула Эйлера?",
+            "reference": "Формула Эйлера - это математическое тождество, связывающее экспоненту комплексного числа с косинусом и синусом его мнимой части."
+        },
+        {
+            "instruction": "Какая самая высокая гора в мире?",
+            "reference": "Самая высокая гора в мире - Эверест, расположенная в Гималаях."
+        },
+        {
+            "instruction": "Какой процент воды покрывает поверхность Земли?",
+            "reference": "Приблизительно 71% поверхности Земли покрыто водой."
+        },
+        {
+            "instruction": "Какая самая большая пустыня в мире?",
+            "reference": "Самая большая пустыня в мире - Сахара, расположенная в Северной Африке."
+        },
+        {
+            "instruction": "Что такое Теорема Пифагора?",
+            "reference": "Теорема Пифагора утверждает, что в прямоугольном треугольнике квадрат длины гипотенузы равен сумме квадратов длин катетов."
+        },
+        {
+            "instruction": "Какая самая длинная река в мире?",
+            "reference": "Самая длинная река в мире - Амазонка, протекающая через Южную Америку."
+        },
+        {
+            "instruction": "Что такое теория относительности?",
+            "reference": "Теория относительности - это физическая теория, разработанная Альбертом Эйнштейном, которая описывает свойства времени, пространства и гравитации."
+        },
+        {
+            "instruction": "Кто написал произведение 'Преступление и наказание'?",
+            "reference": "Произведение 'Преступление и наказание' написал российский писатель Фёдор Достоевский."
+        },
+        {
+            "instruction": "Что такое молекула?",
+            "reference": "Молекула - это наименьшая частица вещества, обладающая всеми его химическими свойствами."
+        },
+        {
+            "instruction": "Какой газ является наиболее распространенным в атмосфере Земли?",
+            "reference": "Наиболее распространенным газом в атмосфере Земли является азот."
+        },
+        {
+            "instruction": "Какова скорость света в вакууме?",
+            "reference": "Скорость света в вакууме приблизительно равна 299,792,458 метров в секунду."
+        }
+    ],
+    "French": [
+        {
+            "instruction": "Quel est le troisième élément du tableau périodique ?",
+            "reference": "Le troisième élément du tableau périodique est le lithium. Il est représenté par le symbole « Li » et porte le numéro atomique 3. "
+        },
+        {
+            "instruction": "Sentence 1: En 2002, la chanson a été publiée par le producteur britannique Vincent Stormfield et reprise par independente avec `` Sweet Harmony 02''. Sentence 2: En 2002, la chanson a été reprise par le producteur britannique Vincent Stormfield et a été publiée par Independiente sous le nom de \" Sweet Harmony '02 \". Question: Les phrases 1 et 2 expriment-elles le même sens? - Oui ou non?",
+            "reference": "Non, pas du tout."
+        },
+        {
+            "instruction": "Quel est le huitième élément du tableau périodique ?",
+            "reference": "Le huitième élément du tableau périodique est l'oxygène. Il est représenté par le symbole « O » et porte le numéro atomique 8. "
+        },
+        {
+            "instruction": "Quelle est la question à: \"Les membres originaux étaient le guitariste / chanteur Peter Haycock, le guitariste Derek Holt; le claviériste Arthur Wood; le bassiste Richard Jones; le batteur George Newsome; et le chanteur principal et saxophoniste Colin Cooper. \"? Le sujet est Climax Blues Band.",
+            "reference": "\"Qui sont les membres du groupe Climax Blues Band?\""
+        },
+        {
+            "instruction": "Quel est le Principe du CinémaScope?",
+            "reference": "La pellicule argentique fut créée en 1889 en 35 mm de largeur avec deux rangées de perforations latérales. Aujourd'hui, le 35 mm reste le format standard, mais d'autres sont nés, plus étroits comme le 8 mm et le 16 mm, ou plus larges comme le 70 mm. L'image panoramique n'est d'ailleurs pas nécessairement obtenue avec un film large. La Vistavision, par exemple, n'utilise que du film 35 mm, mais l'image s'y inscrit dans sa longueur. Le Cinémascope aussi utilise le 35 mm : à la prise de vues, un vaste champ est filmé et un objectif spécial, dit « anamorphoseur », comprime l'image entre les perforations ; à la projection, le même objectif restitue l'image sur un écran large.\nLes pellicules cinéma sont essentiellement des négatifs, films intermédiaires permettant ensuite le tirage de copies positives de projection. Par ailleurs, les tournages se font, aujourd'hui, presque exclusivement en couleurs. Tous les procédés (Technicolor, Eastmancolor, Fujicolor, Gevacolor) reposent sur le même principe que la photo : la superposition de trois couches d'émulsions sensibles respectivement au rouge, au vert et au bleu."
+        },
+        {
+            "instruction": "Dans quelle partie du corp humain, trouve t-on la plus forte concentration en glandes sudoripares ?",
+            "reference": "La plus forte concentration de glandes sudoripares sur le corps humain se trouve sur la paume des mains et sur la plante des pieds."
+        },
+        {
+            "instruction": "Écrit une introduction à un texte d'opinion sur l'importance des devoirs.",
+            "reference": "De nos jours, les devoirs sont une méthode de travail donné par l’enseignant pour aider les élèves. Mais sont-ils vraiment utiles? En mon avis, oui, les devoirs sont utiles pour les élèves parce qu’ils aident l’élève à approfondir ses connaissances, ainsi que pratiquer et réviser la matière. En ajout, les devoirs permettent à l’enseignant de savoir si les élèves ont compris la matière ou pas! "
+        },
+        {
+            "instruction": "Quelles sont les caractéristiques des lynx?",
+            "reference": "Les lynx sont des félins de taille moyenne et agiles. Ils sont des chasseurs solitaires qui mangent proprement. Le lynx part en chasse à la faveur du crépuscule et de la nuit, invisible dans la forêt grâce à son pelage tacheté. Son ouïe très fine et son extrême sensibilité à l'intensité lumineuse en font un excellent chasseur nocturne. Généralement, le terme Lynx fait reference  à  plusieurs espèces de félins partageant presque les mêmes charactéristiques. Les espèces les plus connues sont le Lynx d'Europe (Lynx lynx) et le Lynx roux (Lynx rufus). "
+        },
+        {
+            "instruction": "Qui était le cinéaste David Cronenberg ?",
+            "reference": "David Cronenberg est connu pour sa marque distincte d'horreur corporelle et de thrillers psychologiques. Ses films, tels que \"Vidéodrome\", \"La Mouche\" et \"A History of Violence\", explorent les frontières entre la technologie, le corps humain et la psyché, remettant souvent en question les récits conventionnels."
+        },
+        {
+            "instruction": "Comment appelle-t-on un réseau internet hertzien (sans fil) ?\na) Wifi \nb) TNT \nc) Ethernet",
+            "reference": "Choix a). Un réseau internet hertzien (sans fil) s'appelle \"WiFi\" (le nom vient du terme anglais \"wireless fidelity\")."
+        },
+        {
+            "instruction": "Créez une paraphrase de la phrase suivante : \"Jonté Buhl (né le 4 avril 1982) est un ancien joueur de football professionnel canadien qui a joué pendant quatre ans aux Eskimos d’Edmonton de la Ligue canadienne de football.\"",
+            "reference": "Jonté Buhl, qui a été né le 4 avril 1982, est un ancien demi de coin de football professionnel canadien qui a disputé quatre saisons avec les Eskimos d’Edmonton de la Ligue canadienne de football."
+        },
+        {
+            "instruction": "Phrase 1: Il est frappant de constater que les parents, hommes et femmes, ont été jugés moins compétents que les candidats sans enfant.\nPhrase 2: De manière frappante, les parents, hommes et femmes, ont été jugés moins compétents que les candidats sans enfant.\nQuestion : La Phrase 1 et la Phrase 2, expriment-elles le même sens ?",
+            "reference": "Oui."
+        },
+        {
+            "instruction": "Kisa ki Bwakale a?",
+            "reference": "Se yon mouvman ki pran nesans nan lane 2022 nan peyi dayiti.\n\nSe yon fòm mouvman \"koupe tèt boule kay\" ki vize mache sou bandi, fè ravaj."
+        },
+        {
+            "instruction": "Quel est le nom du meilleur ami d'Astérix dans la bande dessinée \"Astérix et Obélix\" ?",
+            "reference": "Le nom du meilleur ami d'Astérix est Obélix. "
+        },
+        {
+            "instruction": "La guerre mondiale a débuté ",
+            "reference": "en 1939"
+        },
+        {
+            "instruction": "Quelle est la question à: \"Les araignées (ordre Araneae) sont des arthropodes respirant l'air qui ont huit pattes et des chélicères avec des crocs qui injectent du venin\".? Le sujet est Araignée.",
+            "reference": "\"Quelle espèce est une araignée?\""
+        },
+        {
+            "instruction": "La capitale du Sénégal est",
+            "reference": "Dakar"
+        },
+        {
+            "instruction": "Sam faisait du vélo un jour. Il a heurté un gros rocher par accident. La roue de sa bicyclette était courbée. Sam a dû rentrer chez lui à pied. Il l'a finalement remplacé.\" Sur la base de ces informations, l'énoncé est-il : \"Sam a réparé le pneu lui-même.\" ? \"vrai\", \"faux\", ou \"incertain\" ?",
+            "reference": "L'énoncé est incertain."
+        },
+        {
+            "instruction": "Ecris une phrase qui signifie la même chose que celle-ci : \"L 'équipe masculine de basketball 2007 - 08 des Kansas City Wildcats représente l' Université du Kansas à la saison 2007-08 du Collège - Basketball.\"",
+            "reference": "L'équipe de basketball masculin des Kansas City Wildcats, pendant la saison 2007-08 du basketball universitaire, est la représentation de l'Université du Kansas."
+        },
+        {
+            "instruction": "Quelle est la planète la plus proche du soleil ?",
+            "reference": "Mercure est la planète la plus proche du soleil dans notre système solaire. Elle a la période orbitale la plus courte, effectuant une orbite tous les 88 jours terrestres environ. En raison de sa proximité avec le soleil, Mercure connaît des variations de température extrêmes entre ses températures diurnes torrides et ses températures nocturnes glaciales."
+        }
+    ],
+    "Spanish": [
+        {
+            "instruction": "¿Cuántos puntos anotó en futbol la República de Irlanda en su victoria sobre Inglaterra en 1949? Teniendo en cuenta la pregunta anterior, escriba un contexto que contenga la respuesta. Puede ser de 1 a 20 frases. El contexto:",
+            "reference": "Su primera derrota en casa ante un equipo extranjero fue una derrota de 0-2 ante la República de Irlanda, el 21 de septiembre de 1949 en Goodison Park. Una derrota de 6-3 en 1953 ante Hungría, fue su segunda derrota ante un equipo extranjero en Wembley. En el partido de vuelta en Budapest, Hungría ganó 7<unk>1. Esta sigue siendo la peor derrota de Inglaterra. Después del juego, un desconcertado Syd Owen dijo, \"fue como jugar a hombres del espacio exterior\". En la Copa Mundial de la FIFA de 1954, Inglaterra llegó a los cuartos de final por primera vez, y perdió 4-2 ante el campeón en funciones Uruguay."
+        },
+        {
+            "instruction": "¿Cuántos presidentes ha tendio México?",
+            "reference": "México ha tenido alrededor de 60 presidentes."
+        },
+        {
+            "instruction": "Que universidades laicas estatales  de Sudamerica ofrecen doctorados en inteligencia artificial?",
+            "reference": "La Universidad de Concepción  y la  del Bío-Bío, ambas en Chile, son instituciones laicas respaldadas con fondos del gobierno regional, Dichas instituciones han anunciado la apertura a las postulaciones al Doctorado en Inteligencia Artificial a partir de Octubre 2023."
+        },
+        {
+            "instruction": "Adivina la siguiente advinanza: Tengo una gran sombrilla y  me buscan por sabrosa, pero atención, ten cuidado que puedo ser venenosa.",
+            "reference": "La respuesta a la adivinanza es: La seta (hongo)"
+        },
+        {
+            "instruction": "¿Quién escribió Don Quijote de la Mancha?",
+            "reference": "Miguel de Cervantes."
+        },
+        {
+            "instruction": "Cuál es la división política de Bucaramanga en Colombia?",
+            "reference": "\nBucaramanga esta dividida en 17 comunas. tres corregimientos y el escarpe occidental. Dentro de cada comuna hacen parte: los barrios, asentamientos, urbanizaciones\ny otros (sectores con población flotante). Los corregimientos están compuestos por veredas y asentamientos. A continuación se listan los componentes explicados antes:\n\nComuna 1 Norte:\nComuna 2 Nororiental:\nComuna 3 San Francisco:\nComuna 4 Occidental:\nComuna 5 García Rovira\nComuna 6 La Concordia\nComuna 7 La Ciudadela\nComuna 8 Sur Occidente\nComuna 9 La Pedregosa\nComuna 10 Provenza\nComuna 11 Sur\nComuna 12 Cabecera del llano\nComuna 13 Oriental\nComuna 14 Morrorico\nComuna 15 Centro\nComuna 16 Lagos del Cacique\nComuna 17 Mutis\nCorregimiento 1\nCorregimiento 2\nCorregimiento 3\nEscarpe occidental"
+        },
+        {
+            "instruction": "¿Dónde nació William Shakespeare?",
+            "reference": "William Shakespeare nació en el Reino Unido en un pubelo en Inglaterra llamada Stratford-upon-Avon en april de 1564"
+        },
+        {
+            "instruction": "¿A qué deportista se refiere el siguiente texto? Participó en dos Juegos Olímpicos de Verano en los años 1992 y 1996, obteniendo una medalla de plata en la edición de Barcelona 1992 en la categoría de 61 kg. Ganó dos medallas en el Campeonato Mundial de Yudo en los años 1991 y 1993, y tres medallas en el Campeonato Europeo de Yudo entre los años 1989 y 1993.",
+            "reference": "A Yael Arad, deportista israelí que compitió en judo."
+        },
+        {
+            "instruction": "Responde a la siguiente pregunta. ¿Cuándo fue la última vez que los New York Yankees no tuvieron éxito?",
+            "reference": "La última vez que los New York Yankees no tuvieron éxito fue el 18 de julio de 1999."
+        },
+        {
+            "instruction": "Haz un plan de tres lugares para ir a Boyacá",
+            "reference": "1. El Puente de Boyacá: En este pequeño puente que atraviesa Tunja, luchó el ejército boyacense en 1819, derribando a las tropas españolas; ganando la independencia de Colombia en la“Batalla de Boyacá”.\n\n2. Un plan muy popular es dar un paseo por el Pueblito Boyacense en Duitama de calles empedradas y casitas coloridas; el cual alberga réplicas en miniatura de Monguí, Tibasosa, Villa de Leyva, Tenza, Ráquira, Sáchica y El Cocuy. Es considerado \"La Perla de Boyacá\".\n\n3. Los Termales de Paipa: En Paipa podrás conocer su hermoso Patrimonio Histórico como La Casona del Salitre y el Pantano de Vargas, una escultura que representa la ruta libertadora que le dio a la Gran Colombia su libertad el 7 de Agosto de 1819."
+        },
+        {
+            "instruction": "Responde a la siguiente pregunta: En el contexto de taxonomía biológica, ¿qué género tiene más especies, Drácula o Pistacia?",
+            "reference": "Actualmente el género Drácula, de la familia Orchidaceae, contiene más 118 especies clasificadas, mientras que el género Pistacia, de la familia Anacardiaceae, contiene alrededor de 10 a 20 especies."
+        },
+        {
+            "instruction": "¿Cuál es la capital de Guanajuato?",
+            "reference": "La capital es Guanajuato y tiene 5.486.372 habitantes."
+        },
+        {
+            "instruction": "What is the correct answer to this question: \\n¿Cuántas películas de Crepúsculo hay?",
+            "reference": "The correct answer to the question is Cinco."
+        },
+        {
+            "instruction": "¿Cómo se compone el metro de Medellín?",
+            "reference": "El metro de Medellín, está dividido en 2 líneas de tren: línea A y línea B. También un tranvía y bus eléctrico que es la línea T y O, En el futuro la línea O va a ser un tranvía. También cuentan con seis cables aéreos que son línea H, J, K, L, M y P. Y tres líneas de buses 1, 2 y 3"
+        },
+        {
+            "instruction": "¿Cuál es el planeta más pequeño del sistema solar?",
+            "reference": "El planeta más pequeño del sistema solar es Mercurio. Mercurio tiene un diámetro de 4.879 kilómetros, que es aproximadamente la mitad del diámetro de la Tierra. "
+        },
+        {
+            "instruction": "Cual es la comida tipica de Argentina por excelencia?",
+            "reference": "Una de las comidas tipicas de Argentina es el asado, pero tambien son bastante conocidas las empanadas y las milanesas."
+        },
+        {
+            "instruction": "¿Cuál es la capital de Nariño Colombia?",
+            "reference": "La capital de Nariño Colombia es Pasto"
+        },
+        {
+            "instruction": "Completa la oración: La materia no se crea ni se destruye solo ...",
+            "reference": "se transforma."
+        },
+        {
+            "instruction": "¿Qué idioma se habla en Estonia?",
+            "reference": "El estonio es la lengua oficial de Estonia y motivo de gran orgullo nacional.\n\nEs una lengua fino-úgrica, relativamente cercana al finés, pero bastante diferente de la mayoría de las lenguas europeas. Otra cuestión es que, aunque Estonia limita con Rusia, el estonio no se relaciona con la lengua rusa.\n\nEl estonio lo hablan alrededor de 1,1 millones de personas y ha sido votado como el quinto idioma más difícil de aprender para los angloparlantes, después del japonés, el chino, el coreano y el árabe."
+        },
+        {
+            "instruction": "Si una luna nueva ocurrió el 2 de junio, ¿cuándo ocurrirá la próxima luna nueva? Elige entre los siguientes:\n1 - 30 de junio\n2 - 28 de junio\n3 - 23 de junio\n4 - 15 de junio",
+            "reference": "La 1, 30 de junio, ya que el intervalo entre lunas nuevas es de 28/29 días."
+        }
+    ]
+}

@@ -7,8 +7,13 @@ FedLLM-Bench includes the following key features:
 - 1 dataset for **federated preference alignment** task (i.e., *Fed-ChatbotPA*).
 - **Diversities** covering *language*, *quality*, *quantity*, *instruction*, *sequence length*, *embedding*, and *preference*.
 
+## Overview
+A summary of our four realistic FedLLM datasets. IT denotes instruction tuning and PA denotes preference alignment. # denotes ‘the number of’ and L. denotes ‘the length of’. Our datasets
+exhibit diversities in characteristic, task, client number, quantity, length, and quality
+![](./assets/2024-06-10_165701.jpg)
+
 ## Dataset
-The dataset can be downloaded at [data](https://drive.google.com/file/d/1hKv5A0ROmTQQkcsTcYogCUIeF7Ux1pmy/view?usp=sharing).
+The dataset can be downloaded at [data](https://drive.google.com/file/d/1hKv5A0ROmTQQkcsTcYogCUIeF7Ux1pmy/view?usp=sharing). After unzipping the data files, please place it in the "data" directory in the project.
 
 ## Citation
 

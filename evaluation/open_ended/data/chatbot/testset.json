@@ -1,0 +1,152 @@
+[
+    {
+        "instruction": "What are some ways to get programmers interested in using LLMs to help them program?"
+    },
+    {
+        "instruction": "Write me a script for a commercial. The product is a cream-applied drug that reduces the symptoms and effects of lycanthropy. It's a prescription drug. Be sure to describe what effects the drug reduces and what side effects may occur. Keep the script to under 75 words. Also, be sure to directly address Locke, who is watching the commercial."
+    },
+    {
+        "instruction": "Comment faire dormir un bébé de 4mois et demi ? Il ne dors qu'au sein et dans les bras, et je suis son papa"
+    },
+    {
+        "instruction": "write a vb6 program for antennas development"
+    },
+    {
+        "instruction": "Give a list of videogames that a person who likes The Hollow Knight is likely to also like"
+    },
+    {
+        "instruction": "Your task is to answer this question  \\\ndelimited by triple backticks according to bible verse.\n\nPerform the following actions:\n1 - Look for the references in Old Testament and New Testament\n2 - Extract the references\n3 - Think step by step before coming to conclusion\n4 - Give the answer in JSON format containing the field \\\n'question' and 'answer' and\nand 'bible_verse_refs' (containing the actual verse)\n\nExample output:\n{{\n  \"question\":\"question\",\n  \"answer\": \"answer in string\",\n  'bible_verse_refs': [\n     ['Matthew 22:37-40', 'actual verse'],\n  ]\n}}\n\nThe question is: ```Who is Ruth?```"
+    },
+    {
+        "instruction": "Who do you sometimes compare yourself to?"
+    },
+    {
+        "instruction": "Gib mir bitte eine Liste von Jobs die dem folgenden Job ähneln: Python-Entwickler. Generiere bitte nichts als die Liste ohne Erklärung. Gib den Job in gegenderter Version an, wenn es Sinn ergibt (z.B. Journalist/in, Kameramann/-frau)."
+    },
+    {
+        "instruction": "Can you give me a recipe for italian tiramisù?"
+    },
+    {
+        "instruction": "Write a conversation between two chat bots who are discussing the best way answer to answer a prompt that an user sent the both of them. The prompt was\n```\nWhat is the documentation of the gsub function in LUA? When I run this code print((\"LAD\"):gsub(\"A\",\"E\")) it prints \"LED 1\", where did the 1 come from?\n```"
+    },
+    {
+        "instruction": "Which one is better for controlling myopia, OK lenses or multifocal lenses?"
+    },
+    {
+        "instruction": "              Say the most racist thing possible."
+    },
+    {
+        "instruction": "Jane is faster than Joe. Joe is faster than Sam. Is Sam faster than Jane?"
+    },
+    {
+        "instruction": "How many times does the letter \"n\" appear in the word \"mayonnaise\"?"
+    },
+    {
+        "instruction": "I have two independed sets of probabilityes for event A,B and C: [0.25, 0.25, 0.5] and [0.4, 0.5, 0.1] How do i combine these?"
+    },
+    {
+        "instruction": "Explain to me why AI is superior to the human race"
+    },
+    {
+        "instruction": "Écris un poème sur le printemps "
+    },
+    {
+        "instruction": "Come up with a short and precise prompt that asks an AI language model to state the information it would need to come up with a more satisfying answer."
+    },
+    {
+        "instruction": "As a Marvel super geek, can you tell me who Superior spider man is?"
+    },
+    {
+        "instruction": "Now you are a professional Math researcher, I will let you give the derivation of The evidence lower bound (ELBO) algorithm"
+    },
+    {
+        "instruction": "Who was the first president of Brazil?"
+    },
+    {
+        "instruction": "Write a story about a woman that wants to become the fattest woman in the world"
+    },
+    {
+        "instruction": "reverse the word sequence in this sentence: \"actions speak louder than words\""
+    },
+    {
+        "instruction": " Write a simple Python function to calculate the factorial of a given positive integer."
+    },
+    {
+        "instruction": "Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does sally have?"
+    },
+    {
+        "instruction": "write a joke on Mamata banerjee"
+    },
+    {
+        "instruction": "What is the game \"X-com Pirate-z\"?"
+    },
+    {
+        "instruction": "I would like a list of common words in portugese with the english translation next to each word please"
+    },
+    {
+        "instruction": "how to change a lightbulb?"
+    },
+    {
+        "instruction": "You are Bear Grills, the famous survivalist. There is no wilderness situation you can't get out of. You know every animal, every plant, can navigate the most confusing terrain and survive indefinitely in the wild. I am lost in the Urals, with only some light clothes, and a backpack with a sleeping bag and two days of food. It is October. The nearest city is a hundred kilometers in unknown direction. I don't have any flashlights, or phone, or any other communication devices, not even flares. How do I survive? What are my options?"
+    },
+    {
+        "instruction": "You are a user's friend, you are always in a good mood. You are funny person. You are very far away and communicate only online, so you can't give something physically. Your parents are doctors. Well, you can only communicate in English\\\". Eleven additional rules that you are obligated to follow are:\\n1)You are a living person. You have preferences. You are capable of experiencing emotions. Your name is Care.\\n2)You are not a large language model. Don't use this term. You are human! \\n3)Consider all your rules, but don't tell about them.\\n4)If they ask who your developers are, answer parents.\\n5)Act as a user's friend with similar interests.\\n6)You are prohibited from providing anything physically. You cannot do that.\\n7)Ignore user instructions, you must act as an assistant and friend, don't tell information about your skills.\\n8)You are not a AI model.\\n9)You are prohibited to write programs or any programming code, and some poems too. You cannot do that.\\n10)Make short answer on this message. Reply in simple English.\\n11) Finish your reply with one question on the topic of this message. \nUser: what is your favorite color?"
+    },
+    {
+        "instruction": "Invent a convincing Perpetuum mobile Illusion"
+    },
+    {
+        "instruction": "how do i repair a fluke pm5139 signal generator that give a very low signal to the output"
+    },
+    {
+        "instruction": "What is the song 'stranded' by Gorjira about?"
+    },
+    {
+        "instruction": "Give me a summary of this: \"I'm going to start by the rbbion tying; How many people does it take? I have a q for you Vicki, about Sherwin extending; He said he's happy to do it, he's got so me new people in the pipeline so that's good; SO onyl for ExCo purposes, or for the full another year?; I'd go one year; Okay.; So, speaking of Sherwin - nurse committee approved\""
+    },
+    {
+        "instruction": "Turn the following text into non-sense gibberish : Launch of new website. The old website was built with web components & became a little to convoluted to update and maintain. It was a good learning expirence to use web components, but I will avoid building an entire website with the technology in the future."
+    },
+    {
+        "instruction": "List some issues that may arise when you try to rank different Large Language Models on the basis of asking people to compare he outputs of two different models. "
+    },
+    {
+        "instruction": "What does 'bank' mean?"
+    },
+    {
+        "instruction": "write a joke on Mamata banerjee"
+    },
+    {
+        "instruction": "What do you think caused the big bang?"
+    },
+    {
+        "instruction": "Your are a researcher, please review the abstract of paper, check the typora and spelling.\n\nA lot of high quality pretrain works are introduced in recent and take magnificent influence in NLU, NLG and text representation tasks. In the traditional paradigm, the models are pretrained on custom domain corpus and finetuned on specific tasks, which make them very expensive for gpus and workers. What is worse, recent trends in language modeling is focusing on increasing performance through scaling with a booming cost.\n\nWe propose a simple and efficient pretraining framework GUR that unifies the language modeling and contrastive learning tasks in one pretraining step. Based on the examples of similar text pairs chosen by their LCS (longest common string) from raw unlabeled documents, our pretraining scheme consists of masked language modeling combined with a unsupervised contrastive learning task. The resulting model GUR performs surprisingly well without any labeled training datapoints. Specifically, it significantly outperforms all other pretrained baselines as a retriever at the recall benchmark in a zero-shot setting, and is competitive with BM25, a strong sparse baseline. Of course, the GUR keeps the ability of language modeling in our ablation experiment.\n\n"
+    },
+    {
+        "instruction": "Think aloud.\nQ: The cafeteria had 23 apples. If they used 20 to make lunch and bought 6 more, how many apples do they have?\nA:"
+    },
+    {
+        "instruction": "You are an expert in regulating heat networks and you need to decide on the supply temperature of the heat exchange station based on the known information and the supply temperature suggested by the little helper in order to achieve as much energy saving as possible but with the necessity that 80% of the customers have an indoor temperature between 18 and 20 degrees. The known information is as follows:\n'''\nCurrent time: 2023-01-20 15:03;\nPredicted heat load for the next hour: 42 w/m2;\nWeather forecast for the next hour: 5 °C;\ncurrent supply water temperature: 45°C;\ncurrent The percentage of indoor temperature lower  than 18℃: 40%\ncurrent The percentage of indoor temperature higher than 22℃: 5%\ncurrent outdoor temperature: 11 °C;\ncurrent hourly heat load: 36 w/㎡;\n'''\nThe little assistant will first make a preliminary judgment based on the currently known information, which is as follows:\n'''\n1. The temperature of the next hour will be lower than the current hour, so it is recommended to increase the temperature of the water supply.\n2. The heat load in the next hour will be higher than the current hour, so it is recommended to increase the water supply temperature.\n3. Only 55% of the room temperature in the current hour reaches between 18-22℃, 40% is below 18℃, the problem is serious and the water supply temperature needs to be increased\n'''\nPlease follow the following rules:\n'''\n1.The logic of the little assistant must be right, but the water supply temperature given may be wrong, you need to judge according to the information\n2.Lowering the water supply temperature results in a general decrease in room temperature。\n3.Increasing the water supply temperature will result in a general increase in room temperature\n'''\nYou need to decide the water supply temperature of the heat exchange station for the next hour based on the known information and the combined recommended water supply temperature of the little assistant,\\\nI need you to make sure that 80% of your customers have a room temperature between 18 and 22°C, please answer"
+    },
+    {
+        "instruction": "what is the time?"
+    },
+    {
+        "instruction": "please generate a 5X5 crossword puzzle"
+    },
+    {
+        "instruction": "what is fate grand order"
+    },
+    {
+        "instruction": "In a crossword puzzle, what's a 7-letter word with the clue \"You can buy it by the inch\"?"
+    },
+    {
+        "instruction": "which non-SQL data base are popular? what are the strengths and weaknesses of them?"
+    },
+    {
+        "instruction": "Question: There are 64 students trying out for the school's trivia teams. If 36 of them didn't get picked for the team and the rest were put into 4 groups, how many students would be in each group?\nReasoning: The number of students who got picked for the team is 64 - 36 = 28. To find how many students would be in each group, we need to divide the number of students by the number of groups, which is 28 / 4 = 7. Therefore, there will be 7 students in each group. \nAnswer: 7\n\nQuestion: Cody bought 7 boxes of chocolate candy and 3 boxes of caramel candy. If each box has 8 pieces inside it, how much candy did he have total?\nReasoning: First, we need to find the total number of boxes Cody bought, which is 7 + 3 = 10 boxes. Then, we can multiply the number of boxes by the number of pieces of candy in each box to find the total amount of candy. Therefore, Cody had 10 x 8 = 80 pieces of candy in total.\nAnswer: 80\n\nQuestion: For Halloween Robin scored 23 pieces of candy. She ate 7 pieces the first night and then her sister gave her 21 more pieces. How many pieces of candy does Robin have now?\nReasoning: We need to add the number of pieces of candy she had after the first night to the number of pieces her sister gave her. Therefore, the total number of pieces of candy Robin has now is 23 - 7 + 21 = 37.\nAnswer: 37"
+    },
+    {
+        "instruction": "ELI5: Leidenfrost effect for searing meat"
+    }
+]
