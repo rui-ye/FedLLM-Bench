@@ -1,20 +1,20 @@
-max_steps=10
-num_rounds=200
+max_steps=5
+num_rounds=100
 checkpoint_step=50
 batch_size=4
 gradient_accumulation_steps=4
 seq_length=1024
-num_clients=38
-sample_clients=4
+num_clients=237
+sample_clients=10
 lora_r=16
 lora_alpha=32   # twice of lora_r
 lr=2e-5
 
-local_data_dir=data/Fed-Aya/aya_38c_25k.json   # you may uncomment this line if your data is stored locally and include it in the python command
-dataset_name=FedAya
-dataset_sample=25k
+local_data_dir=data/Fed-ChatbotIT/chatbotIT_237c_6k.json   # you may uncomment this line if your data is stored locally and include it in the python command
+dataset_name=FedChatbotIT
+dataset_sample=6166
 model_name_or_path="/GPFS/data/ruiye-1/models/6fdf2e60f86ff2481f2241aaee459f85b5b0bbb9"
-output_dir=./models/FedAya/
+output_dir=./models/FedChatbotIT/
 
 gpu=0
 fed_alg=fedavg

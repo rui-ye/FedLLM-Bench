@@ -30,6 +30,7 @@ else:
 local_datasets = dataset[:fed_args.num_clients]
 sample_num_list = [len(local_datasets[i]) for i in range(fed_args.num_clients)]
 print(sample_num_list)
+print(len(sample_num_list))
 
 # ===== Get model config =====
 device_map, quantization_config, torch_dtype = get_model_config(script_args)
@@ -57,7 +58,7 @@ proxy_dict, opt_proxy_dict = get_proxy_dict(fed_args, global_dict)
 global_auxiliary, auxiliary_model_list, auxiliary_delta_dict = get_auxiliary_dict(fed_args, global_dict)
 
 # ===== Define the tokenizer =====
-tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path, use_fast=False, padding_side="right")
+tokenizer = AutoTokenizer.from_pretrained(script_args.model_name_or_path, use_fast=False, padding_side="right", model_max_length=script_args.seq_length)
 if script_args.multi_turn_task:
     tokenizer.pad_token = tokenizer.unk_token   # following vicuna
     model.resize_token_embeddings(len(tokenizer))
@@ -71,7 +72,10 @@ response_template_ids = tokenizer.encode(response_template, add_special_tokens=F
 data_collator = DataCollatorForCompletionOnlyLM(response_template_ids, tokenizer=tokenizer)
 
 if script_args.multi_turn_task:
-    data_collator_list, sample_num_list = get_multi_turn_dataset(fed_args.fed_alg, script_args.local_data_dir)
+    data_collator_list, sample_num_list = get_multi_turn_dataset(fed_args.fed_alg, script_args.local_data_dir, tokenizer)
+    print("multi-turn")
+    print(len(sample_num_list))
+    print(sample_num_list)
    
 # ===== Start federated training =====
 training_loss = [[] for i in range(fed_args.num_clients)]
@@ -144,7 +148,7 @@ for round in tqdm(range(fed_args.num_rounds)):
     set_peft_model_state_dict(model, global_dict)   # Update global model
 
     # ===== Save the model =====
-    if (round+1) % 25 == 0:
+    if (round+1) % fed_args.checkpoint_step == 0:
         trainer.save_model(os.path.join(script_args.output_dir, f"checkpoint-{round+1}"))
     
     np.save(os.path.join(script_args.output_dir, "training_loss.npy"), np.array(training_loss))

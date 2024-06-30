@@ -4,6 +4,7 @@ lora_pathes=(
     
 )   
 
+bench_name=
 for ((i=0; i<${#lora_pathes[@]}; i++)); do
 
     lora_path=${lora_pathes[$i]}
@@ -15,7 +16,7 @@ for ((i=0; i<${#lora_pathes[@]}; i++)); do
     --base_model_path  \
     --lora_path $lora_path \
     --template alpaca \
-    --bench_name wildchat &
+    --bench_name $bench_name &
 done
 
 wait

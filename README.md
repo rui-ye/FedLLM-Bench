@@ -15,6 +15,20 @@ exhibit diversities in characteristic, task, client number, quantity, length, an
 ## Dataset
 The dataset can be downloaded at [data](https://drive.google.com/file/d/1hKv5A0ROmTQQkcsTcYogCUIeF7Ux1pmy/view?usp=sharing). After unzipping the data files, please place it in the "data" directory in the project.
 
+## Setup
+```
+git clone https://github.com/rui-ye/FedLLM-Bench.git
+cd FedLLMBench
+conda create -n fedllm python=3.10
+conda activate fedllm
+pip install -r requirements.txt
+```
+
+## Training
+We provide training scripts under `training_scripts/`. Refer to `training_scripts/README.md` for more details. Try them out from the top-level directory of this repository.
+
+## Evaluation
+We provide code for open-ended evaluation in `evaluation/open_ended`, covering MT-Bench, Vicuna Bench, AdvBench and GPT4-refer. Refer to `evaluation/open_ended/README.md` for more details.
 ## Citation
 
 Please cite our paper if you find the repository helpful.

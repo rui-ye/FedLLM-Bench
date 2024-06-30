@@ -1,23 +1,23 @@
 max_steps=10
-num_rounds=200
-checkpoint_step=50
+num_rounds=75
+checkpoint_step=25
 batch_size=4
 gradient_accumulation_steps=4
 seq_length=1024
-num_clients=38
-sample_clients=4
+num_clients=1
+sample_clients=1
 lora_r=16
 lora_alpha=32   # twice of lora_r
 lr=2e-5
 
-local_data_dir=data/Fed-Aya/aya_38c_25k.json   # you may uncomment this line if your data is stored locally and include it in the python command
-dataset_name=FedAya
-dataset_sample=25k
-model_name_or_path="/GPFS/data/ruiye-1/models/6fdf2e60f86ff2481f2241aaee459f85b5b0bbb9"
-output_dir=./models/FedAya/
+local_data_dir=data/Fed-Aya/local/local_te.json   # you may uncomment this line if your data is stored locally and include it in the python command
+dataset_name=FedAya_Local_te
+dataset_sample=1159
+model_name_or_path=""
+output_dir=./models/FedAya/local
 
 gpu=0
-fed_alg=fedavg
+fed_alg=local0
 
 CUDA_VISIBLE_DEVICES=$gpu python main_sft.py \
  --learning_rate $lr \

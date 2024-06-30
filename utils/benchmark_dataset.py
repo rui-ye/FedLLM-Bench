@@ -17,13 +17,16 @@ def get_fed_datasets(file_path):
     
     return local_datasets
 
-def get_multi_turn_dataset(fed_alg, data_dir):
+def get_multi_turn_dataset(fed_alg, data_dir, tokenizer):
+    data = json.load(open(data_dir,'r',encoding='utf-8'))
+    data_collator_list = []
     if fed_alg.startswith('local'):
-        data_collator_list = 
+        data_collator_list = [make_supervised_data_module(tokenizer,data)]
         sample_num_list = [len(data_collator_list[0])]
     else:
-        data_collator_list = 
-        sample_num_list = 
+        for value in data.values():
+            data_collator_list.append(make_supervised_data_module(tokenizer, value))
+        sample_num_list = [len(elem) for elem in data_collator_list]
     
     return data_collator_list, sample_num_list
 

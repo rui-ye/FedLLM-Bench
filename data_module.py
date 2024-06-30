@@ -26,7 +26,7 @@ from transformers import (
 import warnings
 
 
-from conversation2 import Conversation, get_conv_template, SeparatorStyle
+from conversation import Conversation, get_conv_template, SeparatorStyle
 from compression import load_compress_model
 
 ## start at fuction: make_supervised_data_module
@@ -280,7 +280,7 @@ def rank0_print(*args):
         print(*args)
 
 def make_supervised_data_module(
-    tokenizer: transformers.PreTrainedTokenizer, data_path, eval_data_path=None
+    tokenizer: transformers.PreTrainedTokenizer, train_json, eval_data_path=None
 ) -> Dict:
     """Make dataset and collator for supervised fine-tuning."""
     dataset_cls = (
@@ -288,7 +288,7 @@ def make_supervised_data_module(
     )
     rank0_print("Loading data...")
 
-    train_json = json.load(open(data_path, "r"))
+    # train_json = json.load(open(data_path, "r"))
     train_dataset = dataset_cls(train_json, tokenizer=tokenizer)
 
     if eval_data_path:

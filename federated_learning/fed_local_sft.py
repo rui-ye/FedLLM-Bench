@@ -11,9 +11,9 @@ def get_fed_local_sft_trainer(script_args, fed_args, model, tokenizer, training_
                 model=model,
                 tokenizer=tokenizer,
                 args=training_args,
+                max_seq_length=script_args.seq_length,
                 packing=True,
                 train_dataset=data_collator,
-                max_seq_length=script_args.seq_length,
                 global_state=global_dict,
                 prox_mu=fed_args.prox_mu,
             )

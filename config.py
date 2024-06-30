@@ -14,6 +14,7 @@ from datetime import datetime, timedelta
 class FedArguments:
     fed_alg: Optional[str] = field(default="fedavg", metadata={"help": "the algorithm to use"})
     num_rounds: Optional[int] = field(default=500, metadata={"help": "the number of rounds"})
+    checkpoint_step: Optional[int] = field(default=50, metadata={"help": "rounds to save checkpoints"})
     num_clients: Optional[int] = field(default=2, metadata={"help": "the number of clients"})
     sample_clients: Optional[int] = field(default=2, metadata={"help": "the number of clients to sample"})
     split_strategy: Optional[str] = field(default="iid", metadata={"help": "the split strategy"})

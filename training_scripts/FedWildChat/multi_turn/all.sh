@@ -1,22 +1,22 @@
 max_steps=10
-num_rounds=200
+num_rounds=100
 checkpoint_step=50
 batch_size=4
 gradient_accumulation_steps=4
-seq_length=1024
-num_clients=38
-sample_clients=4
+seq_length=2048
+num_clients=50
+sample_clients=3
 lora_r=16
 lora_alpha=32   # twice of lora_r
 lr=2e-5
 
-local_data_dir=data/Fed-Aya/aya_38c_25k.json   # you may uncomment this line if your data is stored locally and include it in the python command
-dataset_name=FedAya
-dataset_sample=25k
+local_data_dir="data/Fed-WildChat/multi_turn/wildchat_50c.json"       # you may uncomment this line if your data is stored locally and include it in the python command
+dataset_name=FedWildChatMulti
+dataset_sample=15406
 model_name_or_path="/GPFS/data/ruiye-1/models/6fdf2e60f86ff2481f2241aaee459f85b5b0bbb9"
-output_dir=./models/FedAya/
+output_dir=models/FedWildChat/multi_turn
 
-gpu=0
+gpu=2
 fed_alg=fedavg
 
 CUDA_VISIBLE_DEVICES=$gpu python main_sft.py \
@@ -40,4 +40,5 @@ CUDA_VISIBLE_DEVICES=$gpu python main_sft.py \
  --template "alpaca" \
  --local_data_dir $local_data_dir \
  --gradient_checkpointing \
- --checkpoint_step $checkpoint_step
+ --checkpoint_step $checkpoint_step \
+ --multi_turn_task
