@@ -1,22 +1,20 @@
-# LICENSE for FedLLM-Bench
+LICENSE for FedLLM-Bench
 
 FedLLM-Bench (2024)
 Author: Rui Ye
 
-## Overall License
+Overall License:
 FedLLM-Bench is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License(CC BY-NC 4.0). To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-## Sub-dataset Licenses
 FedLLM-Bench is divided into four sub-datasets, each with its own license as specified below:
 
-### FedAya
+FedAya
 Licensed under the Apache License 2.0. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-### FedChatbotIT and FedChatbotPA
-Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+FedChatbotIT and FedChatbotPA
+Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License(CC BY-NC 4.0). To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-### FedWildChat
+FedWildChat
 Licensed under the Open Data Commons Attribution License (ODC-BY). You are free to: Share — copy and redistribute the material in any medium or format; Adapt — remix, transform, and build upon the material for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms: Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. To view a copy of this license, visit https://opendatacommons.org/licenses/by/1-0/
 
-## Summary
 By using any of the sub-datasets within FedLLM-Bench, you agree to comply with the respective license terms of each sub-dataset. Please make sure to read and understand each license before using the datasets.
