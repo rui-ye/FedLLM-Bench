@@ -63,7 +63,12 @@ class ScriptArguments:
     local_data_dir: Optional[str] = field(default=None, metadata={"help": "the local data directory if you want to use downloaded data"})
     multi_turn_task: Optional[bool] = field(default=False, metadata={"help": "Whether to train multi-turn task"})
     dynamic_local_step: Optional[bool] = field(default=False, metadata={"help": "Whether to user dynamic local step(for chatbotPA tasks)"})
-    
+    # for differential privacy
+    dp_max_grad_norm: Optional[float] = field(default=1.0, metadata={"help": "the max grad norm for differential privacy"})
+    dp_delta: Optional[float] = field(default=1e-4, metadata={"help": "the delta for differential privacy"})
+    dp_epsilon: Optional[float] = field(default=1.0, metadata={"help": "the delta for differential privacy"})
+    dp_sigma: Optional[float] = field(default=None, metadata={"help": "the manually set sigma for differential privacy, this will replace the sigma calculated by epsilon and delta"})
+
 parser = HfArgumentParser((ScriptArguments, FedArguments))
 script_args, fed_args = parser.parse_args_into_dataclasses()
 

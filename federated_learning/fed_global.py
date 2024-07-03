@@ -1,5 +1,6 @@
 import random
 import torch
+import math
 
 def get_clients_this_round(fed_args, round):
     if (fed_args.fed_alg).startswith('local'):
@@ -12,7 +13,7 @@ def get_clients_this_round(fed_args, round):
             clients_this_round = sorted(random.sample(range(fed_args.num_clients), fed_args.sample_clients))
     return clients_this_round
 
-def global_aggregate(fed_args, global_dict, local_dict_list, sample_num_list, clients_this_round, round_idx, proxy_dict=None, opt_proxy_dict=None, auxiliary_info=None):
+def global_aggregate(fed_args, script_args, global_dict, local_dict_list, sample_num_list, clients_this_round, round_idx, proxy_dict=None, opt_proxy_dict=None, auxiliary_info=None):
     sample_this_round = sum([sample_num_list[client] for client in clients_this_round])
     global_auxiliary = None
 
@@ -54,8 +55,22 @@ def global_aggregate(fed_args, global_dict, local_dict_list, sample_num_list, cl
             opt_proxy_dict[key] = fed_args.fedopt_beta2*param + (1-fed_args.fedopt_beta2)*torch.square(proxy_dict[key])
             global_dict[key] += fed_args.fedopt_eta * torch.div(proxy_dict[key], torch.sqrt(opt_proxy_dict[key])+fed_args.fedopt_tau)
 
+    elif fed_args.fed_alg == 'feddp':
+        for key in global_dict.keys():
+            global_dict[key] = sum([(local_dict_list[client][key] + gaussian_noise(local_dict_list[client][key].shape, fed_args, script_args, local_dict_list[client][key].device)) * sample_num_list[client] / sample_this_round for client in clients_this_round])
+    
     else:   # Normal dataset-size-based aggregation 
         for key in global_dict.keys():
             global_dict[key] = sum([local_dict_list[client][key] * sample_num_list[client] / sample_this_round for client in clients_this_round])
     
     return global_dict, global_auxiliary
+
+def gaussian_noise(data_shape, fed_args, script_args, device):
+    if script_args.dp_sigma is None:
+        delta_l = 2 * script_args.learning_rate * script_args.dp_max_grad_norm / (script_args.dataset_sample / fed_args.num_clients)
+        # sigma = np.sqrt(2 * np.log(1.25 / script_args.dp_delta)) / script_args.dp_epsilon
+        q = fed_args.sample_clients / fed_args.num_clients
+        sigma = delta_l * math.sqrt(2*q*fed_args.num_rounds*math.log(1/script_args.dp_delta)) / script_args.dp_epsilon
+    else:
+        sigma = script_args.dp_sigma
+    return torch.normal(0, sigma, data_shape).to(device)

@@ -141,7 +141,7 @@ for round in tqdm(range(fed_args.num_rounds)):
 
     # ===== Server aggregates the local models =====
     global_dict, global_auxiliary = global_aggregate(
-        fed_args, global_dict, local_dict_list, sample_num_list, \
+        fed_args, script_args, global_dict, local_dict_list, sample_num_list, \
         clients_this_round, round, proxy_dict=proxy_dict, \
         opt_proxy_dict=opt_proxy_dict, auxiliary_info=(global_auxiliary, auxiliary_delta_dict)
     )
