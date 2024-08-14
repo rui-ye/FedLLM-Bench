@@ -15,6 +15,8 @@ exhibit diversities in characteristic, task, client number, quantity, length, an
 ## Dataset
 The dataset can be downloaded at [data](https://drive.google.com/file/d/1hKv5A0ROmTQQkcsTcYogCUIeF7Ux1pmy/view?usp=sharing). After unzipping the data files, please place it in the "data" directory in the project.
 
+The unfiltered version can be downloaded at [unfiltered data](https://drive.google.com/drive/folders/1hKXunwJA_K1P-Tn8SBl8HYfw9YjhlpIy?usp=sharing). In this version, we only divided the original dataset by clients and performed an initial cleanup. We did not filter clients based on the data volume. You may use and filter this **unfiltered dataset** according to your specific needs. 
+
 ## Setup
 ```
 git clone https://github.com/rui-ye/FedLLM-Bench.git
